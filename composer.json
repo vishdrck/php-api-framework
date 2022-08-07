@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/assignment",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "vishwajith",
+      "email": "vish.drck@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\kernel\\": "kernel/",
+      "app\\controllers\\": "Controllers/"
+    }
+  }
+}
